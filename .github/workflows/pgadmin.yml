@@ -17,7 +17,7 @@ jobs:
 
       - name: Setup tests deps
         run: |
-          pip install pytest pandas
+          pip install pytest pandas==2.3.3
 
       - name: Run tests
         run: |
